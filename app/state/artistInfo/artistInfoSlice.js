@@ -57,7 +57,6 @@ export const getArtistInfo = artistName => (dispatch, getState) => {
 };
 
 export const selectArtistInfo = artistName => state => {
-	console.log(state);
 	return state.artistInfo.artistInfo[artistName] || {};
 };
 
